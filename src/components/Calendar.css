@@ -1,0 +1,176 @@
+/* ------------------
+universal cards style
+------------------ */
+
+/* ---------------------------
+Hover CSS Located in index.css
+--------------------------- */
+
+#Calendar .card {
+  border-radius: 20px;
+  text-align: left;
+}
+
+#Calendar .card:hover {
+  background-color: #0C98FF;
+  color: white;
+}
+
+#Calendar .card i:hover {
+  color: #000000;
+}
+
+#Calendar .card-header {
+  text-align: center;
+  color: white;
+  border-radius: 20px 20px 0px 0px;
+  background-color: #0C98FF;
+}
+
+#Calendar .card-footer {
+  border-radius: 0px 0px 20px 20px;
+}
+
+#Calendar .card i {
+  color: #C6C6C6;
+}
+
+#Calendar .card p {
+  margin: 0;
+}
+
+#no_events img {
+  height: 70vh;
+  width: auto;
+  }
+
+/* ----------
+Media queries
+---------- */
+
+/* -- Fully Responsive -- */
+
+/* ------------------------------
+On screens larger than 1751px
+------------------------------ */
+@media screen and (min-width: 1751px) {
+
+#Calendar .card h1 {
+    font-size: 65px;
+  }
+
+#Calendar .card h4 {
+    font-size: 44px;
+  }
+
+#Calendar .card p {
+    font-size: 36px;
+  }
+
+#Calendar .card i {
+    font-size: 42px;
+  }
+
+}
+
+/* ------------------------------
+On screens between 1201px & 1750px
+------------------------------ */
+@media screen and (min-width: 1200px) and (max-width: 1750px) {
+
+#Calendar .card h1 {
+    font-size: 38px;
+  }
+
+#Calendar .card h4 {
+    font-size: 24px;
+  }
+
+#Calendar .card p {
+    font-size: 20px;
+  }
+
+#Calendar .card i {
+    font-size: 24px;
+  }
+
+}
+
+/* ------------------------------
+On screens between 768px & 1199px
+------------------------------ */
+@media screen and (min-width: 768px) and (max-width: 1199px)  {
+
+#Calendar .card h1 {
+    font-size: 28px;
+  }
+
+#Calendar .card h4 {
+    font-size: 18px;
+  }
+
+#Calendar .card p {
+    font-size: 14px;
+  }
+
+#Calendar .card i {
+    font-size: 22px;
+  }
+
+#no_events img {
+  height: auto;
+  width: 50vw;
+  }
+
+}
+
+/* ------------------------------
+On screens between 576px & 767px
+------------------------------ */
+@media screen and (min-width: 576px) and (max-width:767px) {
+
+#Calendar .card h1 {
+    font-size: 28px;
+  }
+
+#Calendar .card h4 {
+    font-size: 18px;
+  }
+
+#Calendar .card p {
+    font-size: 14px;
+  }
+
+#Calendar .card i {
+    font-size: 22px;
+  }
+
+}
+
+/* ------------------------------
+On screens that are 575px or less
+------------------------------ */
+@media screen and (max-width: 575px) {
+
+#Calendar .card h1 {
+    font-size: 32px;
+  }
+
+#Calendar .card h4 {
+    font-size: 20px;
+  }
+
+#Calendar .card p {
+    font-size: 16px;
+  }
+
+#Calendar .card i {
+    font-size: 22px;
+  }
+
+#no_events img {
+  height: 50vh;
+  width: auto;
+  }
+
+}

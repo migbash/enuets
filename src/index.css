@@ -1,0 +1,186 @@
+/* -----------------------
+Main Website Universal CSS
+----------------------- */
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  margin: 0;
+  max-width: 100vw;
+}
+
+section {
+  height: auto;
+  text-align: center;
+}
+
+/* ------
+other css
+------ */
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+/* separator */
+hr {
+  width: 50%;
+  background-color: #cccccc;
+  height: 5px;
+  align-self: center;
+}
+
+/* Remove style override
+for the anchor tag */
+a {
+  text-decoration: none !important;
+}
+
+/* ---------------
+General Button CSS
+--------------- */
+/* Blue-colored Button */
+#blue_btn {
+  color: white;
+  background-color: #0C98FF;
+  border: 2px solid transparent;
+}
+
+/* Red-colored Button */
+#red_btn {
+  border: 2px solid transparent;
+  background-color: #FF0C0C;
+  color: white;
+}
+
+/* White-colored Button */
+#white_btn {
+  border: 2px solid transparent;
+  background-color: #FFFFFF;
+  color: white;
+}
+
+/* TODO: Maybe put this into a (Media Query) and adjust the font sizes */
+/* TODO: Fix the sections height - width - & header font-postioning */
+
+
+
+@media screen and (min-width: 1751px) {
+
+  section header h1, div header h1 {
+    font-size: 70px;
+  }
+
+}
+
+/* ------------------------------
+On screens between 1201px & 1750px
+------------------------------ */
+@media screen and (min-width: 1200px) and (max-width: 1750px) {
+
+    section header h1, div header h1 {
+      font-size: 53px;
+    }
+
+}
+
+/* ------------------------------
+On screens between 768px & 1199px
+------------------------------ */
+@media screen and (min-width: 768px) and (max-width: 1199px)  {
+
+}
+
+/* ------------------------------
+On screens between 576px & 767px
+------------------------------ */
+@media screen and (min-width: 576px) and (max-width:767px) {
+
+}
+
+/* ------------------------------
+On screens that are 575px or less
+------------------------------ */
+@media screen and (max-width: 575px) {
+
+}
+
+
+/* Hover CSS & Section-height after Menu Burger disappears */
+@media screen and (min-width: 992px) {
+
+    section {
+      height: 100vh;
+    }
+
+    /* hover css */
+    #join_us:hover {
+      transition: 0.2s;
+      -webkit-transition: 0.2s;
+      background-color: #FFFFFF;
+      color: #000000;
+    }
+
+    #white_btn:hover {
+      transition: 0.2s;
+      -webkit-transition: 0.2s;
+      border: 2px solid black;
+      background-color: #0C98FF;
+    }
+
+    #red_btn:hover {
+      transition: 0.2s;
+      -webkit-transition: 0.2s;
+      border: 2px solid black;
+      background-color: #0C98FF;
+    }
+
+    #blue_btn:hover {
+      transition: 0.2s;
+      -webkit-transition: 0.2s;
+      color: black;
+      background-color: #FFFFFF;
+      border: 2px solid black;
+    }
+
+    footer i:hover {
+      transition: 0.2s;
+      -webkit-transition: 0.2s;
+      color: #0C98FF;
+    }
+
+    footer li:hover {
+      transition: 0.2s;
+      -webkit-transition: 0.2s;
+      color: #FF0C0C;
+    }
+
+    #social_links i:hover {
+      color: #0C98FF;
+    }
+
+    #Team .card-footer i:hover {
+      transition: 0.2s;
+      -webkit-transition: 0.2s;
+      transform: scale(1.15);
+      color: #FF0C0C;
+    }
+
+    #Team .info i:hover {
+      color: black;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    section {
+      padding: 14vh 0;
+    }
+
+}

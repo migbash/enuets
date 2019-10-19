@@ -1,0 +1,103 @@
+/* ---------------
+welcome page style
+--------------- */
+#welcome {
+  background-image: url("/img/web_img/dome_white_img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+
+#welcome_box span {
+  color: #0C98FF;
+}
+
+#welcome_box h1, #welcome_box span {
+  font-weight: bold;
+}
+
+/* ----------
+Media queries
+---------- */
+
+/* -- Fully Responsive -- */
+
+/* ------------------------------
+On screens larger than 1751px
+------------------------------ */
+@media screen and (min-width: 1751px) {
+
+    #welcome_box h1, #welcome_box span {
+      font-size: 125px;
+    }
+
+    #welcome_box h2 {
+      font-size: 50px;
+    }
+
+    #welcome_box .btn {
+      font-size: 35px;
+    }
+
+}
+
+/* ------------------------------
+On screens between 1201px & 1750px
+------------------------------ */
+@media screen and (min-width: 1200px) and (max-width: 1750px) {
+
+    #welcome_box h1, #welcome_box span {
+      font-size: 62px;
+    }
+
+    #welcome_box h2 {
+      font-size: 30px;
+    }
+}
+
+/* ------------------------------
+On screens between 768px & 1199px
+------------------------------ */
+@media screen and (min-width: 768px) and (max-width: 1199px)  {
+
+  #welcome_box h1, #welcome_box span {
+    font-size: 55px;
+  }
+
+  #welcome_box h2 {
+    font-size: 25px;
+  }
+
+}
+
+
+/* ------------------------------
+On screens between 576px & 767px
+------------------------------ */
+@media screen and (min-width: 576px) and (max-width:767px) {
+
+  #welcome_box h1, #welcome_box span {
+    font-size: 50px;
+  }
+
+  #welcome_box h2 {
+    font-size: 20px;
+  }
+
+}
+
+/* ------------------------------
+On screens that are 575px or less
+------------------------------ */
+@media screen and (max-width: 575px) {
+
+  #welcome_box h1, #welcome_box span {
+    font-size: 40px;
+  }
+
+  #welcome_box h2 {
+    font-size: 22px;
+  }
+
+}

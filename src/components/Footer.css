@@ -1,0 +1,177 @@
+/* -------------------
+footer universal style
+------------------- */
+footer {
+  color: white;
+  background-color: #000000;
+  padding: 6vw 4vw;
+}
+
+/* ----------
+society brand
+---------- */
+#brand {
+  font-weight: bold;
+}
+
+/* ---------
+links style
+--------- */
+footer ul {
+  text-align: left;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: white;
+}
+
+footer li, #social_links {
+  padding: 5px;
+}
+
+#social_links p {
+  font-weight: bold;
+  color: #0C98FF;
+}
+
+#social_links i {
+  color: #FFFFFF;
+}
+
+/* ---------------------------
+Hover CSS Located in index.css
+--------------------------- */
+
+/* ----------
+Media queries
+---------- */
+
+/* -- Fully Responsive -- */
+
+/* ------------------------------
+On screens larger than 1751px
+------------------------------ */
+@media screen and (min-width: 1751px) {
+
+  #brand {
+    font-size: 45px;
+    border-right: 6px white solid;
+  }
+
+  footer li, #social_links p {
+    font-size: 32px;
+  }
+
+  #social_links i {
+    font-size: 45px;
+  }
+
+}
+
+/* ------------------------------
+On screens between 1201px & 1750px
+------------------------------ */
+@media screen and (min-width: 1200px) and (max-width: 1750px) {
+
+  #brand {
+    font-size: 25px;
+    border-right: 5px white solid;
+  }
+
+  footer li {
+    font-size: 20px;
+  }
+
+  #social_links i {
+  font-size: 24px;
+  }
+
+
+}
+
+/* TODO: Make sure everyhting works lol */
+
+/* ------------------------------
+On screens between 768px & 1199px
+------------------------------ */
+@media screen and (min-width: 768px) and (max-width: 1199px)  {
+
+  #brand {
+    font-size: 18px;
+    border-right: 5px white solid;
+  }
+
+  footer li, #social_links p {
+    font-size: 14px;
+  }
+
+  #social_links i {
+    font-size: 18px;
+  }
+
+}
+
+/* ------------------------------
+On screens between 576px & 767px
+------------------------------ */
+@media screen and (min-width: 576px) and (max-width:767px) {
+
+  #brand {
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
+
+  #brand::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    width: 50%;
+    border-bottom: 5px white solid;
+  }
+
+  footer li, #social_links p {
+    font-size: 20px;
+  }
+
+  #social_links i {
+    font-size: 25px;
+  }
+
+}
+
+/* ------------------------------
+On screens that are 575px or less
+------------------------------ */
+@media screen and (max-width: 575px) {
+
+  #brand {
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
+
+  #brand::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    width: 50%;
+    border-bottom: 5px white solid;
+  }
+
+  footer li, #social_links p {
+    font-size: 20px;
+  }
+
+  #social_links i {
+    font-size: 25px;
+  }
+
+}

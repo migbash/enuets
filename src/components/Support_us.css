@@ -1,0 +1,171 @@
+/* support us */
+.support_us-out {
+  border-radius: 20px;
+  border: 1px solid #cccccc;
+  width: 85%;
+  height: 400px;
+  color: black;
+  align-items: middle;
+  position: relative;
+}
+
+.support_us-out h1 {
+  font-size: 45px;
+  padding: 15px;
+}
+
+.support_desc {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  border: 1px solid transparent;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 10;
+  color: white;
+  text-align: left;
+}
+
+/* ---------------------------
+Hover CSS Located in index.css
+--------------------------- */
+
+/* ----------
+Media queries
+---------- */
+
+/* -- Fully Responsive -- */
+
+/* ------------------------------
+On screens larger than 1751px
+------------------------------ */
+@media screen and (min-width: 1751px) {
+
+  .support_us-out {
+    width: 85%;
+    height: 550px;
+  }
+
+  .support_us-out img {
+    width: 50%;
+    height: auto;
+  }
+
+  .support_desc button {
+    font-size: 35px;
+  }
+
+  .support_desc h1 {
+    font-size: 45px;
+  }
+
+  .support_desc p {
+    font-size: 30px;
+  }
+
+}
+
+/* ------------------------------
+On screens between 1201px & 1750px
+------------------------------ */
+@media screen and (min-width: 1200px) and (max-width: 1750px) {
+
+  .support_us-out {
+    width: 100%;
+    height: 350px;
+  }
+
+  .support_us-out h1 {
+    font-size: 35px;
+  }
+
+  .support_desc h1 {
+    font-size: 30px;
+  }
+
+  .support_desc p {
+    font-size: 20px;
+  }
+
+}
+
+/* ------------------------------
+On screens between 768px & 1199px
+------------------------------ */
+@media screen and (min-width: 768px) and (max-width: 1199px)  {
+
+  .support_us-out {
+    width: 100%;
+    height: 350px;
+  }
+
+  .support_us-out h1 {
+    font-size: 28px;
+  }
+
+  .support_desc h1 {
+    font-size: 24px;
+  }
+
+  .support_desc p {
+    font-size: 16px;
+  }
+
+}
+
+/* ------------------------------
+On screens between 576px & 767px
+------------------------------ */
+@media screen and (min-width: 576px) and (max-width:767px) {
+
+  .support_us-out {
+    width: 100%;
+    height: 350px;
+  }
+
+  .support_us-out h1 {
+    font-size: 28px;
+  }
+
+  .support_desc h1 {
+    font-size: 24px;
+  }
+
+  .support_desc p {
+    font-size: 16px;
+  }
+
+}
+
+/* ------------------------------
+On screens that are 575px or less
+------------------------------ */
+@media screen and (max-width: 575px) {
+
+  .support_us-out {
+    width: 100%;
+    height: 350px;
+  }
+
+  .support_us-out {
+    margin: 3vh 0;
+  }
+
+  .support_us-out h1 {
+    font-size: 28px;
+  }
+
+  .support_desc h1 {
+    font-size: 24px;
+  }
+
+  .support_desc p {
+    font-size: 16px;
+  }
+
+}

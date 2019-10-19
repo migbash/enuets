@@ -1,0 +1,56 @@
+/* ----------
+Media queries
+---------- */
+
+/* -- Fully Responsive -- */
+
+/* ------------------------------
+On screens larger than 1750px
+------------------------------ */
+@media screen and (min-width: 1751px) {
+
+  #About_us p {
+    font-size: 30px;
+  }
+
+  #About_us button {
+    font-size: 38px;
+  }
+
+}
+
+/* ------------------------------
+On screens between 1201px & 2559px
+------------------------------ */
+@media screen and (min-width: 1201px) and (max-width: 1750px) {
+
+  #About_us p {
+    font-size: 20px;
+  }
+
+}
+
+/* ------------------------------
+On screens between 769px & 1200px
+------------------------------ */
+@media screen and (min-width: 769px) and (max-width: 1200px)  {
+
+}
+
+/* ------------------------------
+On screens between 576px & 768px
+------------------------------ */
+@media screen and (min-width: 576px) and (max-width:768px) {
+
+}
+
+/* ------------------------------
+On screens that are 575px or less
+------------------------------ */
+@media screen and (max-width: 575px) {
+
+  #About_us img {
+    padding: 8vh 0;
+  }
+
+}

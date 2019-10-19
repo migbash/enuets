@@ -1,0 +1,118 @@
+/* --------------
+header main style
+-------------- */
+nav {
+  min-height: 10vh;
+  background-color: #000000;
+}
+
+nav img {
+  height: auto;
+  width: 55px;
+}
+
+.navbar-toggler {
+border: none;
+}
+
+nav i {
+  color: #C6C6C6;
+}
+
+nav h1 {
+  font-weight: bold;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+
+/* join_us button */
+#join_us {
+  background-color: #0C98FF;
+  color: #FFFFFF;
+}
+
+/* ----------
+Media queries
+---------- */
+
+/* -- Fully Responsive -- */
+
+/* ------------------------------
+On screens larger than 1750px
+------------------------------ */
+@media screen and (min-width: 1751px) {
+
+  nav img {
+    height: auto;
+    width: 130px;
+  }
+
+  nav h1 {
+    font-size: 45px;
+  }
+
+  nav a, #join_us {
+    font-size: 35px;
+  }
+}
+
+/* ------------------------------
+On screens between 1201px & 2559px
+------------------------------ */
+@media screen and (min-width: 1201px) and (max-width: 1750px) {
+
+  nav img {
+    height: auto;
+    width: 70px;
+  }
+
+  nav h1 {
+    font-size: 28px;
+  }
+
+  nav a, #join_us {
+    font-size: 20px;
+  }
+
+}
+
+/* ------------------------------
+On screens between 769px & 1200px
+------------------------------ */
+@media screen and (min-width: 769px) and (max-width: 1200px)  {
+
+  nav h1 {
+    font-size: 20px;
+  }
+
+  nav a, #join_us {
+    font-size: 16px;
+  }
+
+}
+
+/* ------------------------------
+On screens between 576px & 768px
+------------------------------ */
+@media screen and (min-width: 576px) and (max-width:768px) {
+
+  nav h1 {
+    font-size: 20px;
+  }
+
+  nav a, #join_us {
+    font-size: 16px;
+  }
+
+}
+
+/* ------------------------------
+On screens that are 575px or less
+------------------------------ */
+@media screen and (max-width: 575px) {
+
+  nav h1, nav a, #join_us {
+    font-size: 16px;
+  }
+
+}

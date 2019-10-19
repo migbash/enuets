@@ -1,0 +1,49 @@
+/* ----------
+to-top button
+---------- */
+#to_top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* ----------
+Ads Section
+---------- */
+
+#stay_in_touch {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 25px;
+}
+
+#partners_ad {
+  background-color: #0C98FF;
+  color: #FFFFFF;
+  padding: 25px;
+}
+
+/* ---------------------------
+Hover CSS Located in index.css
+--------------------------- */
+
+/* ----------
+Media queries
+---------- */
+
+/* -- Fully Responsive -- */
+
+/* ------------------------------
+On screens larger than 1751px
+------------------------------ */
+@media screen and (min-width: 1751px) {
+
+  #stay_in_touch h4, #partners_ad h4 {
+    font-size: 50px;
+  }
+
+  #stay_in_touch button, #partners_ad button {
+    font-size: 35px;
+  }
+
+}
